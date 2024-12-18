@@ -17,7 +17,7 @@ const AboutUs = () => {
       <section className="py-[5rem] wrapper grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col">
           <h1 data-aos="fade-right" className="heading">
-            Unlock the Future of T echnology with Quantsix AI!
+            Unlock the Future of Technology with Quantsix AI!
           </h1>
 
           <p data-aos="fade-right" className="description mt-4">
