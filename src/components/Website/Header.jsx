@@ -20,7 +20,7 @@ const Header = () => {
   const { pathname } = useLocation();
   return (
     <div className="fixed z-40 top-0 left-0 w-full">
-      <div className="bg-[#EDF6FFC2]">
+      <div className="bg-white">
         {/* <div className="wrapper w-[95%] hidden md:flex bg-[#17012C] py-3 px-8 rounded-b-[2rem]">
           <div className="flex w-full justify-between gap-5 items-center">
             <div className="flex items-center gap-5">
@@ -50,13 +50,14 @@ const Header = () => {
           </div>
         </div> */}
         <div className="flex w-full justify-between items-center gap-5 py-3 px-5 sm:px-8">
-          <Link to="/">
+          <Link to="/" className="flex items-center">
             <img
               loading="lazy"
               src={logo}
               alt="logo"
               className="h-[3rem] sm:h-[4rem]"
             />
+            <h1 className="font-semibold text-2xl">QUANTSIX AI</h1>
           </Link>
           <div className="hidden lg:flex items-center gap-5">
             {websitePagesLinks.map((link) => (
@@ -119,7 +120,10 @@ const Header = () => {
               {title}
             </Link>
           ))}
-          <Link to="/contact-us" className="text-2xl font-mediumduration-300 link">
+          <Link
+            to="/contact-us"
+            className="text-2xl font-mediumduration-300 link"
+          >
             Contact Us
           </Link>
         </div>

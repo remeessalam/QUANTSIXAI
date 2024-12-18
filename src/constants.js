@@ -40,6 +40,11 @@ import big from "./assets/services-details/big1.jpg";
 import cloud from "./assets/services-details/cloud1.jpg";
 import cyber from "./assets/services-details/cyber1.jpg";
 import it from "./assets/services-details/it1.jpg";
+import app from "./assets/services-details/app.jpg";
+import ai from "./assets/services-details/ai.jpg";
+import web from "./assets/services-details/web.jpg";
+import arvr from "./assets/services-details/arvr.jpg";
+import block from "./assets/services-details/blockchain1.jpeg";
 
 // clients
 import client1 from "./assets/client-1.png";
@@ -450,7 +455,7 @@ export const industriesCompanyServe = [
 export const services = [
   {
     id: 1,
-    img: service3,
+    img: ai,
     name: "Artificial Intelligence Development",
     description:
       "At Quantsix AI, we specialize in developing cutting-edge artificial intelligence solutions that are tailored to meet the unique needs of your business. Our team of experts creates custom AI models that address specific challenges within your organization, enabling you to leverage predictive analytics for informed decision-making. We also enhance customer interactions through advanced Natural Language Processing (NLP) technologies, which power intelligent chatbots and voice recognition systems. Additionally, our computer vision capabilities allow for the implementation of visual recognition systems across various applications, from security surveillance to quality control in manufacturing. By choosing us for your AI development needs, you can unlock new levels of efficiency and innovation.",
@@ -482,7 +487,7 @@ export const services = [
   },
   {
     id: 2,
-    img: service1,
+    img: app,
     name: "Mobile Apps",
     description:
       "Our mobile app development team at Quantsix AI is dedicated to crafting intuitive and engaging applications for both iOS and Android platforms. We prioritize user-centric design principles to ensure that every app we create offers a seamless experience for users. Our expertise extends to cross-platform compatibility, allowing your app to function flawlessly across various devices. We also focus on integrating your app with existing business processes, enhancing its functionality and relevance. Furthermore, we provide ongoing support and maintenance post-launch, ensuring that your app remains updated and continues to meet user expectations. With Quantsix AI, your mobile app will not only stand out but also drive customer engagement.",
@@ -512,7 +517,7 @@ export const services = [
   },
   {
     id: 3,
-    img: service2,
+    img: web,
     name: "Websites",
     description:
       "We design and develop responsive websites that not only captivate visitors but also perform exceptionally well in achieving business objectives. Our web services encompass custom website development tailored specifically to your needs, ensuring that every aspect aligns with your brand identity. We incorporate SEO optimization strategies to enhance visibility on search engines, driving more traffic to your site. Our content management systems (CMS) empower you to manage website content effortlessly, while our robust e-commerce solutions facilitate seamless online transactions. With a focus on both aesthetics and functionality, our websites are designed to convert visitors into loyal customers.",
@@ -732,7 +737,7 @@ export const services = [
   },
   {
     id: 10,
-    img: service6,
+    img: arvr,
     name: "AR & VR Development",
     link: "/services/ar-vr",
     description:
@@ -825,7 +830,7 @@ export const services = [
   },
   {
     id: 13,
-    img: service4,
+    img: block,
     name: "Blockchain",
     description:
       "We provide blockchain solutions at Quantsix AI that enhance security and transparency within transactions across industries effectively! Our smart contract development automates agreements using secure blockchain contracts ensuring compliance & reducing risks associated traditional methods handling sensitive information exchanged between parties involved transactions taking place! Furthermore; our blockchain integration services facilitate smooth transitions from legacy systems into modern infrastructures leveraging distributed ledger technology while consultation services guide clients understanding how best utilize this innovative approach grow their business models sustainably over time!",

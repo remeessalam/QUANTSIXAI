@@ -38,7 +38,12 @@ const HomePageServicesList = () => {
         </div>
         <div className="w-full">
           <div className="py-[2rem]">
-            <h4 data-aos="fade-up" className="text-3xl font-medium">
+            <img
+              src={selectedService.img}
+              alt={selectedService.name}
+              className="rounded-2xl w-full h-[300px] sm:h-[500px] !object-cover"
+            />
+            <h4 data-aos="fade-up" className="text-3xl font-medium mt-5">
               {selectedService.name}
             </h4>
             <p
@@ -47,6 +52,13 @@ const HomePageServicesList = () => {
             >
               {selectedService.description}
             </p>
+            <ul className="mt-4 list-disc pl-6">
+              {selectedService.features.map((feature, index) => (
+                <li key={index} className="mt-2">
+                  <strong>{feature.name}:</strong> {feature.description}
+                </li>
+              ))}
+            </ul>
             <Link
               data-aos="fade-up"
               to={selectedService.link}

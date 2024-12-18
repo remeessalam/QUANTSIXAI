@@ -15,7 +15,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="fixed z-40 top-0 left-0 w-full">
-      <div className="bg-[#EDF6FFC2]">
+      <div className="bg-white">
         {/* <div className="wrapper w-[95%] hidden md:flex bg-[#17012C] py-3 px-8 rounded-b-[2rem]">
           <div className="flex w-full justify-between gap-5 items-center">
             <div className="flex items-center gap-5">
@@ -50,7 +50,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer flex items-center"
           >
             <img
               loading="lazy"
@@ -58,6 +58,7 @@ const Header = () => {
               alt="logo"
               className="h-[3rem] sm:h-[4rem]"
             />
+            <h1 className="font-semibold text-2xl">QUANTSIX AI</h1>
           </ScrollLink>
           <div
             data-aos="fade-down"

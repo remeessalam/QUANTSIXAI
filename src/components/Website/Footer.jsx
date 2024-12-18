@@ -8,15 +8,19 @@ import { allServices, clientDetails, services } from "../../constants";
 
 const Footer = () => {
   return (
-    <div className="bg-[#17012C] py-[3rem] text-white">
+    <div className="bg-black py-[3rem] text-white">
       <div className="px-5 sm:px-10 flex flex-col gap-3 sm:flex-row justify-between">
         <div className="flex flex-col gap-3 items-start">
-          <img
-            loading="lazy"
-            src={logo}
-            alt="logo"
-            className="h-[4rem] object-contain"
-          />
+          <div className="flex items-center">
+            <img
+              loading="lazy"
+              src={logo}
+              alt="logo"
+              className="h-[4rem] object-contain"
+            />
+            <h1 className="font-semibold text-2xl">QUANTSIX AI</h1>
+          </div>
+
           <p className="max-w-[25rem]">
             Follow us on our social media handles to keep up to date with our
             latest work and announcements.
@@ -35,14 +39,14 @@ const Footer = () => {
           {/* <p className="max-w-[25rem] mt-3">Address: {clientDetails.address}</p> */}
         </div>
         <div className="flex flex-col mt-6 sm:mt-0 sm:flex-row gap-7 md:gap-14">
-          <div className="flex flex-col gap-3">
+          {/* <div className="flex flex-col gap-3">
             <p className="text-lg font-semibold">Our Services</p>
             {services.map((item) => (
               <Link key={item.id} to={item.link} className="cursor-pointer">
                 {item.name}
               </Link>
             ))}
-          </div>
+          </div> */}
           <div className="flex flex-col gap-3">
             <p className="text-lg font-semibold">Quick Links</p>
             <Link to="/about-us" className="cursor-pointer">
