@@ -78,17 +78,9 @@ const Header = () => {
                 {link.title}
               </ScrollLink>
             ))} */}
-            <ScrollLink
-              to="banner"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-20}
-              className="text-md cursor-pointer"
-              activeClass="active-link"
-            >
+            <Link to="/" className="text-md cursor-pointer">
               Home
-            </ScrollLink>
+            </Link>
             <Link to="/about-us" className="text-md cursor-pointer">
               About Us
             </Link>
@@ -163,17 +155,9 @@ const Header = () => {
               {title}
             </ScrollLink>
           ))} */}
-          <ScrollLink
-            to="banner"
-            onClick={() => setIsOpen(false)}
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-20}
-            className="text-2xl font-medium link"
-          >
+          <Link to="/" className="text-2xl font-medium link">
             Home
-          </ScrollLink>
+          </Link>
           <Link to="/about-us" className="text-2xl font-medium link">
             About Us
           </Link>
