@@ -12,10 +12,13 @@ const NLP = () => {
         alt="Natural Language Processing"
       />
       <div className="flex flex-col gap-4 md:px-5">
-        <h2 data-aos="fade-up" className="text-3xl font-semibold">
+        <h2
+          data-aos="fade-up"
+          className="text-3xl leading-[3rem] font-semibold "
+        >
           Natural Language Processing (NLP)
         </h2>
-        <p data-aos="fade-up" className="description">
+        <p data-aos="fade-up" className="description ">
           Natural Language Processing (NLP) is at the intersection of
           linguistics, computer science, and artificial intelligence, enabling
           machines to understand, interpret, and respond to human language. From

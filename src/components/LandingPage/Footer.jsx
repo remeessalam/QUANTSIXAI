@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
+import { clientDetails } from "../../constants";
 
 const Footer = () => {
   return (
@@ -20,13 +21,13 @@ const Footer = () => {
         </div>
         <div className="">
           <div className="flex mt-3 gap-5 justify-start">
-            <Link>
+            <Link to={clientDetails.linkedin}>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link>
+            <Link to={clientDetails.instagram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link>
+            <Link to={clientDetails.facebook}>
               <GrFacebookOption className="text-2xl" />
             </Link>
           </div>

@@ -72,6 +72,10 @@ export const clientDetails = {
   phone: "+91 99210 10216",
   whatsapp: "9921010216",
   address: "5,B.S. PARK, WADESHWAR NAGAR, VADGAON SHERI, PUNE 411014",
+  instagram: "https://www.instagram.com/quantsix_ai?igsh=MXBzbTRtcWc1dGpp",
+  facebook: "https://www.facebook.com/share/12D8Aw4Lce2/?mibextid=wwXIfr",
+  linkedin:
+    "https://www.linkedin.com/company/105759850/admin?lipi=urn%3Ali%3Apage%3Aorganization_admin_admin_dashboard%3Baf2ae089-2307-44c4-9ef6-620273573efc",
 };
 
 // landing page header links
