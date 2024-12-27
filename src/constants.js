@@ -71,6 +71,7 @@ import img55 from "./assets/app_projects/5.webp";
 export const clientDetails = {
   phone: "+91 99210 10216",
   whatsapp: "9921010216",
+  email: "quantsixai@gmail.com",
   address: "5,B.S. PARK, WADESHWAR NAGAR, VADGAON SHERI, PUNE 411014",
   instagram: "https://www.instagram.com/quantsix_ai?igsh=MXBzbTRtcWc1dGpp",
   facebook: "https://www.facebook.com/share/12D8Aw4Lce2/?mibextid=wwXIfr",

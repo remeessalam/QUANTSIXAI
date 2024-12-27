@@ -38,6 +38,7 @@ import CloudServices from "./pages/ServicesPages/CloudServices";
 import CyberSecurity from "./pages/ServicesPages/CyberSecurity";
 import ItInfrastructures from "./pages/ServicesPages/ItInfrastructures";
 import RoboticAutomation from "./pages/ServicesPages/RoboticAutomation";
+import { Toaster } from "react-hot-toast";
 
 Aos.init({
   once: true,
@@ -50,6 +51,15 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <WhatsAppIcon />
+      <Toaster
+        position="top-bottom"
+        toastOptions={{
+          style: {
+            background: "#010C2A",
+            color: "#ffffff",
+          },
+        }}
+      />
       <NormalizeSlash>
         <Routes>
           <Route path="*" element={<Navigate to="/" replace />} />
