@@ -39,6 +39,7 @@ import CyberSecurity from "./pages/ServicesPages/CyberSecurity";
 import ItInfrastructures from "./pages/ServicesPages/ItInfrastructures";
 import RoboticAutomation from "./pages/ServicesPages/RoboticAutomation";
 import { Toaster } from "react-hot-toast";
+import ThankYou from "./components/Thank-you";
 
 Aos.init({
   once: true,
@@ -67,6 +68,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/services" element={<OurServices />} />
+          <Route path="/thank-you" element={<ThankYou />} />
 
           {/* Services Detail Routes with Layout */}
           <Route path="/services" element={<ServicePageLayout />}>

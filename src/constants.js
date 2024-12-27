@@ -66,6 +66,10 @@ import img22 from "./assets/app_projects/2.webp";
 import img33 from "./assets/app_projects/3.webp";
 import img44 from "./assets/app_projects/4.webp";
 import img55 from "./assets/app_projects/5.webp";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import OurServices from "./pages/OurServices";
+import ContactUs from "./pages/ContactUs";
 
 // client details
 export const clientDetails = {
@@ -1132,3 +1136,31 @@ export const appPortfolio = [
   },
 ];
 // console.log(JSON.stringify(services, null, 2));
+
+export const routes = [
+  {
+    path: "/",
+    name: "Home",
+    element: <Home />,
+  },
+  {
+    path: "/about-us",
+    name: "About Us",
+    element: <AboutUs />,
+  },
+  {
+    path: "/services",
+    name: "Services",
+    element: <OurServices />,
+  },
+  {
+    path: "/contact-us",
+    name: "Contact Us",
+    element: <ContactUs />,
+  },
+  {
+    // path: "/contact-us",
+    name: "Blog",
+    // element: <ContactUs />,
+  },
+];
