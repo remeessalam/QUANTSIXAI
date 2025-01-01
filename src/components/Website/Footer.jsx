@@ -1,10 +1,12 @@
 import React from "react";
 import logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
 import { allServices, clientDetails, services } from "../../constants";
+import { MdEmail } from "react-icons/md";
+import { FaMapLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -58,6 +60,31 @@ const Footer = () => {
             <Link to="/contact-us" className="cursor-pointer">
               Contact Us
             </Link>
+          </div>
+          <div className="flex flex-col gap-3">
+            <h5 className="text-lg font-semibold">Contact Info</h5>
+            {/* <hr /> */}
+            <Link
+              to={`tel:${clientDetails.phone}`}
+              className="flex items-center gap-3 w-fit"
+            >
+              <FaPhoneAlt className="text-3xl" />
+
+              <p className=" font-medium">{clientDetails.phone}</p>
+            </Link>
+            <Link
+              to={`tel:${clientDetails.email}`}
+              className="flex items-center gap-3 w-fit"
+            >
+              <MdEmail className="text-3xl" />
+              <p className=" font-medium">{clientDetails.email}</p>
+            </Link>
+            <div className="flex gap-3  w-fit">
+              <FaMapLocationDot className="text-3xl" />
+              <p className=" font-medium max-w-[15rem]">
+                {clientDetails.address}
+              </p>
+            </div>
           </div>
         </div>
       </div>
