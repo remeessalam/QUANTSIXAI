@@ -72,11 +72,13 @@ import OurServices from "./pages/OurServices";
 import ContactUs from "./pages/ContactUs";
 
 // client details
+
 export const clientDetails = {
   phone: "+91 99210 10216",
   whatsapp: "9921010216",
-  email: "quantsixai@gmail.com",
-  address: "5,B.S. PARK, WADESHWAR NAGAR, VADGAON SHERI, PUNE 411014",
+  email: "info@quantsixai.com",
+  address:
+    "5,B.S.Park, Wadeshwar Nagar,Vadgon sheri, Pune -411014. Near Kharadi IT Tower.",
   instagram: "https://www.instagram.com/quantsix_ai?igsh=MXBzbTRtcWc1dGpp",
   facebook: "https://www.facebook.com/share/12D8Aw4Lce2/?mibextid=wwXIfr",
   linkedin:
@@ -163,28 +165,28 @@ export const workingProcess = [
 export const webDevelopmentServices = [
   {
     id: 1,
-    title: "E-commerce Websites",
+    title: "AI E-commerce Websites Development",
     icon: ecomWebIcon,
     description:
       "We build customized e-commerce platforms that enhance user experience, streamline operations, and increase sales.",
   },
   {
     id: 2,
-    title: "Social Media Websites",
+    title: "AI Social Media Websites Development",
     icon: socialWebIcon,
     description:
       "Our social media websites are designed to attract and engage users, fostering brand growth and loyalty.",
   },
   {
     id: 3,
-    title: "Landing Websites",
+    title: "AI Landing Websites Development",
     icon: landingWebIcon,
     description:
       "We design compelling landing pages that highlight your brand and drive user conversions effectively.",
   },
   {
     id: 4,
-    title: "Custom Websites",
+    title: "AI Custom Websites Development",
     icon: customWebIcon,
     description:
       "Our custom websites blend innovation and functionality to provide unique solutions tailored to your business.",
@@ -195,28 +197,28 @@ export const webDevelopmentServices = [
 export const appDevelopmentServices = [
   {
     id: 1,
-    title: "iOS App Development",
+    title: "iOS AI App Development",
     icon: iosAppIcon,
     description:
       "We craft iOS apps using Swift and Objective-C, ensuring top-tier performance and seamless user experiences.",
   },
   {
     id: 2,
-    title: "Android App Development",
+    title: "Android AI App Development",
     icon: androidAppIcon,
     description:
       "We create custom Android apps with Java and Kotlin, focused on performance and user satisfaction.",
   },
   {
     id: 3,
-    title: "Flutter App Development",
+    title: "Flutter AI App Development",
     icon: flutterAppIcon,
     description:
       "Flutter enables cross-platform apps with one codebase, delivering efficient and visually appealing results.",
   },
   {
     id: 4,
-    title: "Hybrid App Development",
+    title: "Hybrid AI App Development",
     icon: hybridAppIcon,
     description:
       "Our hybrid apps ensure compatibility and excellent functionality across multiple platforms and devices.",
@@ -458,6 +460,12 @@ export const industriesCompanyServe = [
     title: "Telecom",
     img: require("./assets/industries/Telecom.jpg"),
     desc: "Improving network performance and fraud detection with AI-based telecom solutions.",
+  },
+  {
+    id: 12,
+    title: "Gaming",
+    img: require("./assets/industries/gaming.jpg"),
+    desc: "Enhancing gameplay performance and detecting cheats with AI-powered gaming solutions.",
   },
 ];
 
@@ -1119,11 +1127,11 @@ export const appPortfolio = [
     img: img22,
     title: "Find A Driver",
   },
-  {
-    id: 3,
-    img: img33,
-    title: "Glowsy",
-  },
+  // {
+  //   id: 3,
+  //   img: img33,
+  //   title: "Glowsy",
+  // },
   {
     id: 4,
     img: img44,

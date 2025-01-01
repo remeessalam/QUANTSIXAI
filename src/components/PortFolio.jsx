@@ -3,7 +3,7 @@ import { appPortfolio, webPortfolio } from "../constants";
 
 const Portfolio = ({ page }) => {
   let portfolioList;
-
+  console.log(page, "asdklfjaslkdfjs");
   if (page === "web-development") {
     portfolioList = webPortfolio;
   } else if (page === "app-development") {
@@ -14,10 +14,7 @@ const Portfolio = ({ page }) => {
   return (
     <div className="py-[5rem] wrapper flex flex-col items-center gap-5">
       {/* <SubHeading heading="Our Portfolio" /> */}
-      <div
-        data-aos="fade-up"
-        className="section-heading flex items-center gap-1"
-      >
+      <div data-aos="fade-up" className="heading flex items-center gap-1">
         Our Portfolio
       </div>
       <h2

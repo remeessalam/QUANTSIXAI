@@ -82,6 +82,7 @@ const LandingPage = ({ page }) => {
             {page === "web-development" &&
               webDevelopmentServices.map((item) => (
                 <div
+                  key={item.id}
                   data-aos="fade-up"
                   className="flex flex-col gap-2 items-center shadow-xl transition-all duration-300 bg-gradient-to-tr from-white to-primary/20 rounded-lg p-5"
                 >
@@ -94,7 +95,7 @@ const LandingPage = ({ page }) => {
                     />
                   </div>
                   <h6 className="font-medium text-2xl">{item.title}</h6>
-                  <p className="text-gray-700 text-md md:text-base font-light">
+                  <p className="text-black text-md md:text-base font-light">
                     {item.description}
                   </p>
                 </div>
@@ -115,7 +116,7 @@ const LandingPage = ({ page }) => {
                     />
                   </div>
                   <h6 className="font-medium text-2xl">{item.title}</h6>
-                  <p className="text-gray-700 text-md md:text-base font-light">
+                  <p className="text-black text-md md:text-base font-light">
                     {item.description}
                   </p>
                 </div>
@@ -126,7 +127,7 @@ const LandingPage = ({ page }) => {
 
       <HomePageServicesList />
       <IndustriesWeServe />
-      <Portfolio />
+      <Portfolio page={page} />
       {/* <WorkingProcess /> */}
       {/* <section className="py-[5rem] relative">
         <div className="blue-bg-shape -z-10 right-[-5%] rotate-[125deg] top-1/2 -translate-y-1/2"></div>
