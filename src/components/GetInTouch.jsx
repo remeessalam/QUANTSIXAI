@@ -28,8 +28,8 @@ const GetInTouch = () => {
 
     // Construct the request payload
     var payload = {
-      to: "remeesreme4u@gmail.com",
-      // to: clientDetails.email,
+      // to: "remeesreme4u@gmail.com",
+      to: clientDetails.email,
       subject: values.subject,
       body: emailBody,
     };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { clientDetails } from "../../constants";
 
 const LandingForm = () => {
   const [spinner, setSpinner] = useState(false);
@@ -27,8 +28,8 @@ const LandingForm = () => {
 
     // Construct the request payload
     var payload = {
-      to: "remeesreme4u@gmail.com",
-      // to: clientDetails.email,
+      // to: "remeesreme4u@gmail.com",
+      to: clientDetails.email,
       subject: values.subject,
       body: emailBody,
     };
