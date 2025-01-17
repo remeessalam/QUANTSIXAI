@@ -13,6 +13,7 @@ import HomePageServicesList from "../../components/HomePageServicesList";
 import TrustWorthySection from "../../components/TrustWorthySection";
 import IndustriesWeServe from "../../components/IndustriesWeServe";
 import Portfolio from "../../components/PortFolio";
+import LandingForm from "../../components/LandingPage/LandingForm";
 
 const LandingPage = ({ page }) => {
   return (
@@ -49,7 +50,7 @@ const LandingPage = ({ page }) => {
           </div>
         </div>
       </section> */}
-
+      <LandingForm />
       <TrustWorthySection />
 
       <section
